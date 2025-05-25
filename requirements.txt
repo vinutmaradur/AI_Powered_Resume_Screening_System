@@ -6,4 +6,5 @@ scikit-learn
 joblib
 opencv-python
 pyresparser
-nltk
+nltk==3.9.1
+spacy==2.3.5
