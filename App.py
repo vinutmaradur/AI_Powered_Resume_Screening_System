@@ -9,6 +9,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 from PIL import Image
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+
 from pyresparser import ResumeParser
 from pdfminer3.layout import LAParams, LTTextBox
 from pdfminer3.pdfpage import PDFPage
@@ -26,10 +30,6 @@ import plotly.express as px
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 from keras.models import load_model
-
-import nltk
-nltk.download('stopwords')
-nltk.download('punkt')
 
 import mysql.connector
 
