@@ -29,6 +29,7 @@ from keras.models import load_model
 
 import nltk
 nltk.download('stopwords')
+nltk.download('punkt')
 
 import mysql.connector
 
