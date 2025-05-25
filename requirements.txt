@@ -1,11 +1,6 @@
 streamlit
-pandas
-numpy
-fpdf2
-scikit-learn
 nltk
 pyresparser
 spacy
-joblib
-opencv-python
-
+pdfminer.six
+scikit-learn
