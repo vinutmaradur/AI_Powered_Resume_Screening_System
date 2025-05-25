@@ -3,8 +3,9 @@ pandas
 numpy
 fpdf2
 scikit-learn
+nltk
+pyresparser
+spacy
 joblib
 opencv-python
-pyresparser
-nltk
-spacy==2.3.5
+
