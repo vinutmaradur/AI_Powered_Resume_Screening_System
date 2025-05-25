@@ -10,8 +10,22 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 from PIL import Image
 import nltk
-nltk.download('stopwords')
-nltk.download('punkt')
+from nltk.data import find
+
+@st.cache_resource
+def setup_nltk():
+    def safe_download(resource):
+        try:
+            find(f'corpora/{resource}')
+        except LookupError:
+            nltk.download(resource)
+    
+    safe_download('stopwords')
+    safe_download('punkt')
+    safe_download('wordnet')
+    safe_download('averaged_perceptron_tagger')
+
+setup_nltk()
 
 from pyresparser import ResumeParser
 from pdfminer3.layout import LAParams, LTTextBox
