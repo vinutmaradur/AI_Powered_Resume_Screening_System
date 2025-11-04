@@ -1,6 +1,0 @@
-streamlit
-nltk
-pyresparser
-spacy
-pdfminer.six
-scikit-learn
