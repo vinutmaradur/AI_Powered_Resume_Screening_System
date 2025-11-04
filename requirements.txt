@@ -1,0 +1,13 @@
+pandas
+numpy
+opencv-python-headless
+pdfminer3 
+scikit-learn
+nltk
+streamlit-tags
+pyresparser
+spacy
+joblib
+pdf2image
+plotly.express
+keras==2.12.0
