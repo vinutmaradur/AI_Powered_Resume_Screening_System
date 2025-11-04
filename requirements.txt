@@ -1,0 +1,9 @@
+pandas
+numpy
+pdfminer3 
+scikit-learn
+nltk
+pyresparser
+spacy
+joblib
+opencv-python
