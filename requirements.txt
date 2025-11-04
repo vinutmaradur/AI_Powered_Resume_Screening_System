@@ -1,0 +1,11 @@
+pandas
+numpy
+opencv-python-headless
+pdfminer3 
+scikit-learn
+nltk
+streamlit-tags
+pyresparser
+spacy
+joblib
+
