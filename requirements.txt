@@ -1,9 +1,0 @@
-pandas
-numpy
-pdfminer 
-scikit-learn
-nltk
-pyresparser
-spacy
-joblib
-opencv-python
